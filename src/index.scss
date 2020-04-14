@@ -12,6 +12,7 @@ body {
   font-family: "Roboto", -apple-system, system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 .todo{
@@ -24,6 +25,7 @@ body {
   border-radius: 10px;
   border: 1px solid #f1f1f1;
   font-size: 14px;
+  display: flex;
 
   &__sidebar{
     background: #F4F6F8;
@@ -33,7 +35,13 @@ body {
     padding: 60px 20px;
   }
 
+  &__tasks{
+    flex: 1;
+    padding: 60px;
+  }
+
 }
+
 
 
 .field{
